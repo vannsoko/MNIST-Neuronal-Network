@@ -356,6 +356,7 @@ int main() {
         std::cout << "\nTo use real data, download MNIST files from:\n";
         std::cout << "http://yann.lecun.com/exdb/mnist/\n";
         std::cout << "and place them in the same directory as this program.\n\n";
+        return 1;
     }
     
     // Network architecture
